@@ -1,7 +1,15 @@
 # The-Key
 ## Stack Overflow's The Key but real
+![KeypadDiagram.png](KeypadDiagram.png)
+
 A macOS app that connects to the nearest micro:bit (more like the first micro:bit it finds) over Bluetooth.
-> sorry there's no proper pairing thing because i did this in 40 minutes so if you need, just run to a secluded room that is completely isolated from any micro:bits that may be attempting to connect to Bluetooth.
+
+How it works
+- Look at the diagram to see what each button maps to
+- Plug the cable into the other cable into your Mac and you're done
+- It uses the micro:bit's bluetooth to interface with the custom built app and the custom built app's only job is to press buttons.
+
+> sorry there's no proper pairing interface because i did this in 40 minutes so if you need, just run to a secluded room that is completely isolated from any micro:bits that may be attempting to connect to Bluetooth.
 
 # Very cool. How to install?
 ## What you'll need
@@ -26,3 +34,6 @@ A macOS app that connects to the nearest micro:bit (more like the first micro:bi
 5. It should auto-pair with the micro:bit
 
 > im too lazy to bother signing this so... you'll just have to contend with the source code.
+
+### Customize
+You have the source code. Edit it yourself. 
