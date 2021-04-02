@@ -107,7 +107,7 @@ extension ViewController: CBCentralManagerDelegate, CBPeripheralDelegate {
                                    virtualKey: keyCode,
                                    keyDown: true)
             
-            keyDownEvent?.flags = [.maskCommand, .maskControl, .maskShift]
+            keyDownEvent?.flags = [.maskCommand]
             
         case "C":
             keyCode = 8
