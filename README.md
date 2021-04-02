@@ -1,5 +1,5 @@
-# The-Key
-## Stack Overflow's The Key but real
+# The Key
+## Stack Overflow's The Key™, but real
 ![KeypadDiagram.png](KeypadDiagram.png)
 
 A macOS app that connects to the nearest micro:bit (more like the first micro:bit it finds) over Bluetooth.
